@@ -1,0 +1,8 @@
+<a class="moodboard" href="{{ include.url | relative_url }}">
+    <div class="moodboard__images">
+      {% for pic in include.images %}
+        <img src="{{ pic.picture }}" alt="">
+      {% endfor %}
+    </div>
+    <h3 class="moodboard__title">{{ include.title | escape }}</h3>
+</a>

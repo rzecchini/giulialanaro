@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: 'Michroma', sans-serif;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color:      #2a7ae2 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+$medium: 37.5rem; /* 600px */
+$large: 62.5rem; /* 1000px */
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import 'normalize';
+@import 'base';
+@import 'wallop';
+
+
+/* Layout
+ *=======================================*/
+.container {
+  max-width: 72rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.layout-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.padding {
+    padding: 1rem;
+}
+
+/* Header
+ *=======================================*/
+.site-header {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.site-header__title {
+  font-size: 1.125rem;
+}
+
+.site-header__subtitle {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.site-header__menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.site-header__item {
+  display: inline-block;
+  margin-right: 1.25rem;
+  font-size: 0.875rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+
+/* Moodboards
+ *=======================================*/
+
+
+
+/* Single work card
+ *=======================================*/
+.moodboard {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.moodboard__images {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.moodboard__images img {
+  display: block;
+  margin-right: 0.25rem;
+  
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.moodboard__title {
+  margin: 0;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+
+
+
+
+

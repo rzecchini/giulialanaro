@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <main class="layout-single" aria-label="Content">
+      {% if page.url != '/' %}
+        {% assign mood = page %}
+      {% else %}
+        {% assign mood = site.moodboards[0] %}
+      {% endif %}
+      {% include moodboard_single.html url=mood.url title=mood.title images=mood.images %}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
