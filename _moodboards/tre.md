@@ -1,5 +1,5 @@
 ---
-title: Tre
+title: Moodboard due
 layout: default
 images:
   - picture: /assets/uploads/uno1.jpg

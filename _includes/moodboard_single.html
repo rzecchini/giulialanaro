@@ -1,11 +1,11 @@
-<a href="/archive/" style="display:block">
+<a href="/archive/" class="moodboard-single">
   <div class="Wallop">
     <div class="Wallop-list">
       {% for pic in include.images %}
         <div class="Wallop-item">
-          <img src="{{ pic.picture }}" alt="">
-          <h3>{{ include.title | escape }}</h3>
-          <h4>{{ pic.dida | escape }}</h4>
+          <img class="moodboard-single__img" src="{{ pic.picture }}" alt="">
+          <h3 class="moodboard-single__title">{{ include.title | escape }}</h3>
+          <h4 class="moodboard-single__dida">{{ pic.dida | escape }}</h4>
         </div>
       {% endfor %}
     </div>

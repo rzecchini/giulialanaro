@@ -102,12 +102,29 @@ $large: 62.5rem; /* 1000px */
 }
 
 
-/* Moodboards
+/* Moodboard single
  *=======================================*/
+.moodboard-single {
+  display: block;
+}
+
+.moodboard-single__img {
+  max-height: 70vh;
+  margin-bottom: 0.5rem;
+}
+
+.moodboard-single__title {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.moodboard-single__dida {
+  font-size: 0.75rem;
+  text-align: center;
+}
 
 
-
-/* Single work card
+/* Archive moodboard card
  *=======================================*/
 .moodboard {
   display: block;
@@ -119,9 +136,9 @@ $large: 62.5rem; /* 1000px */
   margin-bottom: 1rem;
 }
 
-.moodboard__images img {
+.moodboard__img-wrapper {
   display: block;
-  margin-right: 0.25rem;
+  margin-right: 0.5rem;
   
   &:last-child {
     margin-right: 0;
