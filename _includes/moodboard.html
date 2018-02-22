@@ -2,7 +2,17 @@
     <div class="moodboard__images">
       {% for pic in include.images %}
         <div class="moodboard__img-wrapper">
-          <img src="{{ pic.picture }}" alt="">
+          <!--<img src="{{ pic.picture }}" alt="">-->
+          
+          
+          <!--<img src="https://res.cloudinary.com/rzecchini/image/fetch/w_181,h_255,c_fill/{{ include.poster | absolute_url }}" srcset="https://res.cloudinary.com/rzecchini/image/fetch/w_181,h_255,c_fill/{{ include.poster | absolute_url }} 181w, https://res.cloudinary.com/rzecchini/image/fetch/w_362,h_510,c_fill/{{ include.poster | absolute_url }} 362w, https://res.cloudinary.com/rzecchini/image/fetch/w_306,h_430,c_fill/{{ include.poster | absolute_url }} 306w, https://res.cloudinary.com/rzecchini/image/fetch/w_612,h_860,c_fill/{{ include.poster | absolute_url }} 612w" sizes="(min-width:600px) 33vw, (min-width:1000px) 25vw, 50vw" alt="" title="{{ include.title | escape }}">-->
+          
+          <!--<img src="https://res.cloudinary.com/rzecchini/image/fetch/w_400,h_400,c_fill/{{ pic.picture | absolute_url }}" alt="" title="{{ include.title | escape }}">-->
+          
+          {% assign tempurl = 'https://giulialanaro.netlify.com/' %}
+          <img src="https://res.cloudinary.com/rzecchini/image/fetch/w_300,h_300,c_fill/{{ pic.picture | prepend: tempurl }}" alt="" title="{{ include.title | escape }}">
+          
+          
         </div>
       {% endfor %}
     </div>
