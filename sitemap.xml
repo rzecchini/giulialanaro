@@ -10,9 +10,4 @@ layout: null
   </url>
   {% endif %}
   {% endfor %}
-  {% for moodboard in site.moodboards %}
-  <url>
-    <loc>{{ site.url }}{{ site.baseurl }}{{ moodboard.url }}</loc>
-  </url>
-  {% endfor %}
 </urlset>

@@ -43,8 +43,8 @@ include: ["_pages"]
 # Collections
 collections:
   moodboards:
-    output: true
-    permalink: /archive/:name
+    output: false
+#    permalink: /archive/:name
 
 # Defaults
 defaults:
