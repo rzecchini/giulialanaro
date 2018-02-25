@@ -161,7 +161,7 @@ $large: 62.5rem; /* 1000px */
 /* Luminous
  *=======================================*/
 
-@keyframes loading {
+/*@keyframes loading {
   0% { width: 0; }
   100% { width: 100%; }
 }
@@ -171,17 +171,17 @@ $large: 62.5rem; /* 1000px */
   height: 2px; 
   background-color: red;
   animation: loading 1000ms infinite ease-in;
-}
+}*/
 
 .lum-lightbox-caption {
-  //display: block;
   padding: 1rem;  
-  background-color: #fff; 
+  background-color: #ffffff; 
+  font-size: 0.875rem;
 }
 
-.lum-loading .lum-lightbox-caption {
+/*.lum-loading .lum-lightbox-caption {
   visibility: hidden;
-}
+}*/
 
 
 
