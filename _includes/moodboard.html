@@ -11,7 +11,7 @@
           
           {% assign tempurl = 'https://giulialanaro.netlify.com/' %}
           <a href="https://res.cloudinary.com/rzecchini/image/fetch/h_1200,fl_progressive/{{ pic.picture | prepend: tempurl }}" class="luminous" data-dida="{{pic.dida}}">
-            <img src="https://res.cloudinary.com/rzecchini/image/fetch/w_300,h_300,c_fill/{{ pic.picture | prepend: tempurl }}" alt="" title="{{ include.title | escape }}">
+            <img src="https://res.cloudinary.com/rzecchini/image/fetch/w_300,h_300,c_fill/{{ pic.picture | prepend: tempurl }}" alt="" title="{{ include.title | escape }}" width="300" height="300">
           </a>
           
 <!--          <div>{{pic.dida}}</div>-->

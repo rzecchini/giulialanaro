@@ -172,14 +172,26 @@ $large: 62.5rem; /* 1000px */
 }*/
 
 .lum-lightbox-caption {
-  padding: 1rem;  
+  padding: 0.5rem;  
   background-color: #ffffff; 
   font-size: 0.875rem;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
 }
 
 /*.lum-loading .lum-lightbox-caption {
   visibility: hidden;
 }*/
 
+.luminous img {
+  height: auto
+}
+.lum-img {
+    background: #ffffff;
+    min-width: 100px;
+    min-height: 100px;
+}
 
 
