@@ -1,11 +1,12 @@
 ---
 title: Moodboard tre
+date: 2018-02-03T00:00:00+01:00
 layout: default
 images:
-  - picture: /assets/uploads/due1.jpg
-    dida: Bella raga
+  - dida: Bella raga
+    picture: /assets/uploads/due1.jpg
   - picture: /assets/uploads/due2.jpg
-  - picture: /assets/uploads/due3.jpg
-    dida: Toooppp
+  - dida: Toooppp
+    picture: /assets/uploads/due3.jpg
 ---
-due
+
