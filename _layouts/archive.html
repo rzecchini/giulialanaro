@@ -8,7 +8,7 @@
     <main aria-label="Content">
       <div class="container">
         <section class="moodboards">
-          {% assign sorted_moodboards = site.moodboards | sort: 'date' %}
+          {% assign sorted_moodboards = site.moodboards | sort: 'date' | reverse %}
           {% for work in sorted_moodboards %}
             {% include moodboard.html url=work.url title=work.title images=work.images %}
           {% endfor %}
