@@ -1,5 +1,6 @@
 ---
 title: Un nuovo mood di Rix
+date: 2018-03-01T00:00:00+01:00
 layout: default
 images:
   - dida: Il gatto è padrone
