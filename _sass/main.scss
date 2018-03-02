@@ -60,12 +60,13 @@ $large: 62.5rem; /* 1000px */
 
 .layout-single {
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
 }
 
 .padding {
     padding: 1rem;
 }
+
 
 /* Header
  *=======================================*/
@@ -93,7 +94,7 @@ $large: 62.5rem; /* 1000px */
 .site-header__item {
   display: inline-block;
   margin-right: 1.25rem;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 
   &:last-child {
     margin-right: 0;
@@ -108,8 +109,20 @@ $large: 62.5rem; /* 1000px */
 }
 
 .moodboard-single__img {
-  max-height: 70vh;
+  max-height: 50vh;
   margin-bottom: 0.5rem;
+}
+
+@media screen and (min-height: 30rem) {
+  .moodboard-single__img { 
+    max-height: 60vh;
+  }
+}
+
+@media screen and (min-height: 40rem) {
+  .moodboard-single__img { 
+    max-height: 70vh;
+  }
 }
 
 .moodboard-single__title {
@@ -137,7 +150,7 @@ $large: 62.5rem; /* 1000px */
 
 .moodboard__images {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .moodboard__img-wrapper {
@@ -151,7 +164,7 @@ $large: 62.5rem; /* 1000px */
 
 .moodboard__title {
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   text-align: center;
 }
 
@@ -159,36 +172,21 @@ $large: 62.5rem; /* 1000px */
 /* Luminous
  *=======================================*/
 
-/*@keyframes loading {
-  0% { width: 0; }
-  100% { width: 100%; }
-}
-
-.lum-loading .lum-lightbox-loader {
-  display: block;
-  height: 2px; 
-  background-color: red;
-  animation: loading 1000ms infinite ease-in;
-}*/
-
-.lum-lightbox-caption {
+ .lum-lightbox-caption {
   padding: 0.5rem;  
   color: #ffffff; 
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   position: fixed;
   left: 0;
   width: 100%;
   bottom: 0;
 }
 
-/*.lum-loading .lum-lightbox-caption {
-  visibility: hidden;
-}*/
-
-.luminous img {
+.luminous img { /* img thumb */
   height: auto
 }
-.lum-img {
+
+.lum-img { /* img big */
     background: #ffffff;
     min-width: 100px;
     min-height: 100px;
