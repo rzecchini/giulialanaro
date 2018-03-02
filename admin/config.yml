@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: rzecchini/giulialanaro # Path to your Github repository
   branch: master # Branch to update
 
