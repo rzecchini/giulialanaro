@@ -9,7 +9,9 @@ images:
       Emma Balfour by David Sims for Mademoiselle Magazine May 1993 (source
       through-a-dark-glass.blogspot.com.au)
     picture: /assets/uploads/4f461321427e137eef1ece1de83ebbb5.jpg
-  - dida: UK Vogue March 1994 Helena Christensen by Mikael Jansson
+  - dida: >-
+      UK Vogue March 1994 Helena Christensen by Mikael Jansson (source
+      forums.thefashionspot.com)
     picture: /assets/uploads/ourwomaninhavana-4.jpg
 ---
 
