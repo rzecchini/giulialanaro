@@ -16,7 +16,7 @@
 title: Giulia Lanaro
 email: info.giulialanaro@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
-  Giulia Lanaro Reasearch of Attitudes
+  Giulia Lanaro Research of Attitudes
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.giulialanaro.it # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
