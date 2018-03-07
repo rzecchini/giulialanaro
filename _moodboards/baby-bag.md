@@ -8,7 +8,7 @@ images:
       /assets/uploads/trussardi ss 1997 (source harper's bazaar italia
       collections dec:jan 1996).jpg
   - dida: Hermès FW 1998 (source www.vogue.com)
-    picture: /assets/uploads/hermès fw 1998 (source www.vogue.com).jpg
+    picture: /assets/uploads/hermes-fw-1998_(source_www-vogue-com).jpg
   - dida: Vogue Paris February 1996 (source editorialarchive.tumblr.com)
     picture: >-
       /assets/uploads/vogue paris february 1996 (source
