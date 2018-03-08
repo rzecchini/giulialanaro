@@ -139,9 +139,16 @@ $large: 62.5rem; /* 1000px */
 /* Archive moodboard card
  *=======================================*/
 .moodboards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .moodboard {
@@ -149,6 +156,8 @@ $large: 62.5rem; /* 1000px */
 }
 
 .moodboard__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 0.5rem;
 }
@@ -171,6 +180,16 @@ $large: 62.5rem; /* 1000px */
 
 /* Luminous
  *=======================================*/
+  @-webkit-keyframes loading {
+    0% { background-color: #999999; }
+    50% { background-color: #333333; }
+    100% { background-color: #999999; }
+  }
+  @keyframes loading {
+    0% { background-color: #999999; }
+    50% { background-color: #333333; }
+    100% { background-color: #999999; }
+  }
 
  .lum-lightbox-caption {
   padding: 0.5rem;  
@@ -187,9 +206,11 @@ $large: 62.5rem; /* 1000px */
 }
 
 .lum-img { /* img big */
-    background: #666666;
+    background: #999999;
     min-width: 1rem;
     min-height: 1rem;
+    -webkit-animation: loading 2.5s linear infinite;
+            animation: loading 2.5s linear infinite;
 }
 
 .lum-lightbox-inner {
