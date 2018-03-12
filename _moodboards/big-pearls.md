@@ -10,6 +10,6 @@ images:
   - dida: Giorgio Armani 1992
     picture: /assets/uploads/s-l1600.jpg
   - dida: UK Vogue January 1990 (source bellazon.com)
-    picture: /assets/uploads/post-31427-1303759727-1.jpg
+    picture: /assets/uploads/perleoro.jpg
 ---
 
