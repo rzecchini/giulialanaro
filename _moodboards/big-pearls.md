@@ -1,5 +1,5 @@
 ---
-title: Big Pearls
+title: Big Pendants
 date: '2018-03-12T10:45:08+01:00'
 layout: default
 images:
