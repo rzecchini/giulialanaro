@@ -9,5 +9,7 @@ images:
     picture: /assets/uploads/hermes-fall-1998-rtw-33-cn10025328.jpg
   - dida: Vogue Paris February 1996 (source editorialarchive.tumblr.com)
     picture: /assets/uploads/vogue.jpg
+  - dida: Prada SS 1994 (source prada.com)
+    picture: /assets/uploads/pradass1994.jpg
 ---
 
