@@ -5,7 +5,7 @@
   <body>
     {% include header.html %}
 
-    <main class="layout-single" aria-label="Content">
+    <main class="main" aria-label="Content">
       {% assign mood = site.moodboards.last %}
       {% include moodboard_single.html url=mood.url title=mood.title images=mood.images %}
     </main>

@@ -6,7 +6,7 @@ $base-font-family: 'Michroma', sans-serif;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$base-line-height: 1.45 !default;
 
 $spacing-unit:     30px !default;
 
@@ -58,7 +58,7 @@ $large: 62.5rem; /* 1000px */
   margin: auto;
 }
 
-.layout-single {
+.main {
   text-align: center;
   padding-bottom: 1rem;
 }
@@ -67,6 +67,20 @@ $large: 62.5rem; /* 1000px */
     padding: 1rem;
 }
 
+.max-width {
+  max-width: 50rem;
+}
+
+.center {
+  margin: auto;
+}
+
+
+/* Link
+ *=======================================*/
+ .link {
+  border-bottom: 2px solid #333;
+ }
 
 /* Header
  *=======================================*/
