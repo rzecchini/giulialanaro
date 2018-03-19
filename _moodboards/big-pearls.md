@@ -11,5 +11,7 @@ images:
     picture: /assets/uploads/s-l1600.jpg
   - dida: UK Vogue January 1990 (source bellazon.com)
     picture: /assets/uploads/perleoro.jpg
+  - dida: Lei Magazine March 1991 (source yasminlebon.net)
+    picture: /assets/uploads/lei91mar5.jpg
 ---
 
