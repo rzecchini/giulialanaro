@@ -13,5 +13,7 @@ images:
       Kirsten Owen by Steven Meisel for Vogue Italia September 1997 (source
       80s-90s-supermodels.tumblr.com)
     picture: /assets/uploads/a027f494455fa303ace1aa7bc4c28d91.jpg
+  - dida: Prada SS 1993 (source prada.com)
+    picture: /assets/uploads/schermata 2018-03-21 alle 21.58.28.png
 ---
 
