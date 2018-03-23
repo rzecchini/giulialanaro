@@ -11,7 +11,7 @@ images:
       Alessando dell'Acqua SS 1997 (source Harper's Bazaar Collections Dec/Jan
       1996/1997)
     picture: /assets/uploads/alessandrodellacqua.jpg
-  - dida: Elle Italia June 1997
+  - dida: Elle Italia June 1997 (source thefashionspot)
     picture: /assets/uploads/elleitaliajune97.jpg
 ---
 
