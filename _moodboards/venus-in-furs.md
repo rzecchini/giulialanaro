@@ -11,5 +11,7 @@ images:
     picture: /assets/uploads/ferretti98.jpg
   - dida: Blumarine Campaign FW 2003 shot by Tim Walker
     picture: /assets/uploads/walker_blumarine_fall_winter_03_04_06.png
+  - dida: Marni FW 1998
+    picture: /assets/uploads/marni98.jpg
 ---
 
