@@ -11,6 +11,9 @@ images:
       Blumarine Campaign FW 2003 shot by Tim Walker (source
       forums.thefashionspot.com)
     picture: /assets/uploads/walker_blumarine_fall_winter_03_04_06.png
-  - {}
+  - dida: Prada FW 1999 (source prada.com)
+    picture: /assets/uploads/cq5dam.web.1280.1280.jpg
+  - dida: Alberta Ferretti FW 1998
+    picture: /assets/uploads/image1.jpg
 ---
 
