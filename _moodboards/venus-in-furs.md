@@ -5,7 +5,8 @@ layout: default
 images:
   - dida: Elle Germany January 1998 (source forums.thefashionspot.com)
     picture: /assets/uploads/ellegermanyjan98.jpg
-  - {}
+  - dida: Prada FW 1999 (source prada.com)
+    picture: /assets/uploads/pradafw1999.jpg
   - {}
 ---
 
