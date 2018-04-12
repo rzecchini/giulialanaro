@@ -13,7 +13,7 @@ images:
     picture: /assets/uploads/alessandrodellacqua.jpg
   - dida: Elle Italia June 1997 (source thefashionspot)
     picture: /assets/uploads/elleitaliajune97.jpg
-  - dida: Blumarine RTW SS 1999
+  - dida: Blumarine RTW SS 1999 (source firstview.com)
     picture: /assets/uploads/photo_mid_def_262234.jpg
 ---
 
