@@ -9,7 +9,7 @@ images:
     picture: /assets/uploads/tumblr_n3zhp1uf1o1s487d6o1_1280.png
   - dida: Elle France 1993 (source 80s-90s-christy-turlington.tumblr.com)
     picture: /assets/uploads/greyalaiaiairef_master.jpg
-  - dida: Blumarine RTW SS 1999
+  - dida: 'Blumarine RTW SS 1999 (source firstview.com) '
     picture: /assets/uploads/photo_mid_def_262184.jpg
 ---
 
