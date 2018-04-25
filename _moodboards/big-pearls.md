@@ -13,5 +13,7 @@ images:
     picture: /assets/uploads/perleoro.jpg
   - dida: Lei Magazine March 1991 (source yasminlebon.net)
     picture: /assets/uploads/lei91mar5.jpg
+  - dida: Vogue US JUne 1990 (source forums.thefashionspot.com)
+    picture: /assets/uploads/usvogue1990.jpg
 ---
 
