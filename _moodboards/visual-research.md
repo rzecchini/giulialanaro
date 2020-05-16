@@ -6,5 +6,6 @@ images:
   - picture: /assets/uploads/a.jpg
   - picture: /assets/uploads/giulialanaro2.jpg
   - picture: /assets/uploads/giulialanaro4.jpg
+  - picture: /assets/uploads/giulialanarob.jpg
 ---
 
