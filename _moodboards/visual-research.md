@@ -9,5 +9,6 @@ images:
   - picture: /assets/uploads/giulialanarob.jpg
   - picture: /assets/uploads/giulialanarod.jpg
   - picture: /assets/uploads/giulialanarof.jpg
+  - picture: /assets/uploads/giulialanaro10.jpg
 ---
 
