@@ -2,7 +2,7 @@
     <div class="Wallop-list">
       {% for pic in include.images %}
         <div class="Wallop-item">
-          <img class="moodboard-single__img" src="{{ pic.picture }}" alt="">
+          <img class="moodboard-single__img" src="https://res.cloudinary.com/rzecchini/image/fetch/h_1200,fl_progressive/{{ pic.picture | absolute_url }}" alt="">
           <h3 class="moodboard-single__title">{{ include.title | escape }}</h3>
           <h4 class="moodboard-single__dida">{{ pic.dida | escape }}</h4>
         </div>
