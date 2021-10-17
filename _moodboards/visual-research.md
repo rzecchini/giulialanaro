@@ -3,12 +3,11 @@ title: Fashion Interiors Lifestyle
 date: '2020-05-16T14:17:36+02:00'
 layout: default
 images:
-  - picture: /assets/uploads/a.jpg
-  - picture: /assets/uploads/giulialanaro2.jpg
-  - picture: /assets/uploads/giulialanaro4.jpg
-  - picture: /assets/uploads/giulialanarob.jpg
-  - picture: /assets/uploads/giulialanarod.jpg
-  - picture: /assets/uploads/giulialanarof.jpg
-  - picture: /assets/uploads/giulialanaro10.jpg
+  - picture: /assets/uploads/img_1751.jpg
+  - picture: /assets/uploads/img_1743.jpg
+  - picture: /assets/uploads/img_1699.jpg
+  - picture: /assets/uploads/img_1704.jpg
+  - picture: /assets/uploads/0745dc4b-3530-44dd-a45a-d1ff7ceee3ee.jpg
+  - {}
 ---
 
